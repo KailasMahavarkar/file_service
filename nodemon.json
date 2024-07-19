@@ -1,0 +1,13 @@
+{
+    "watch": [
+        "*.go",
+        "routes/*.go"
+    ],
+    "ext": "go",
+    "ignore": [
+        "logs/*",
+        "static/*",
+        "templates/*"
+    ],
+    "exec": "go run main.go"
+}

@@ -1,0 +1,17 @@
+root = "."
+
+[tmp]
+  path = "./tmp"
+  build_args = ["-mod=vendor"]
+
+[build]
+  bin = "tmp/main"
+  cmd = "go build -o tmp/main ."
+
+[run]
+  executable = "tmp/main"
+  args = []
+
+[restart]
+  exclude_ext = [".git", ".idea", "tmp", "vendor"]
+  include_ext = [".go", ".mod", ".sum"]
