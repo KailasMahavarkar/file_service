@@ -50,4 +50,3 @@ To run the service, execute the following command:
 ```bash
 go run main.go
 ```
-# file_service
